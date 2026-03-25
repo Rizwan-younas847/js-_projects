@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #00d4ff;
+}
+
+/* Choices section */
+.choices {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    gap: 30px;
+}
+
+.choice {
+    background-color: #2e2e44;
+    border-radius: 50%;
+    padding: 20px;
+    transition: transform 0.2s, background 0.3s;
+    cursor: pointer;
+}
+
+.choice img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+/* Hover effect */
+.choice:hover {
+    transform: scale(1.1);
+    background-color: yellow;
+}
+
+/* Score board */
+.score_Board {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.score {
+    background-color: #2e2e44;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.score p:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Message box */
+.msg_Container {
+    margin-top: 30px;
+}
+
+#msg {
+    display: inline-block;
+    background-color: #00d4ff;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
